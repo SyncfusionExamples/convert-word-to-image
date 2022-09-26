@@ -17,16 +17,12 @@ namespace Specific_range_of_pages_Word_to_image
             {
                 //Initialize the ChartToImageConverter for converting charts during Word to image conversion.
                 wordDocument.ChartToImageConverter = new ChartToImageConverter();
-                //Set the scaling mode for charts.
-                wordDocument.ChartToImageConverter.ScalingMode = ScalingMode.Normal;
                 //Convert a specific range of pages in Word document to images.
                 Image[] images = wordDocument.RenderAsImages(1, 2, ImageType.Bitmap);
-                int i = 0;
-                foreach (Image image in images)
+                for (int i = 0; i < images.Length; i++)
                 {
                     //Save the images as jpeg.
                     image.Save(Path.GetFullPath(@"../../WordToImage_" + i + ".jpeg"), ImageFormat.Jpeg);
-                    i++;
                 }
             }
         }

@@ -9,28 +9,25 @@ namespace Convert_Word_to_image
     {
         static void Main(string[] args)
         {
+            //Open the file as Stream. 
             using (FileStream fileStream = new FileStream(Path.GetFullPath(@"../../../Template.docx"), FileMode.Open))
             {
-                //Loads an existing Word document.
+                //Load an existing Word document.
                 using (WordDocument wordDocument = new WordDocument(fileStream, FormatType.Automatic))
                 {
-                    //Creates an instance of DocIORenderer.
+                    //Create a new instance of DocIORenderer. 
                     using (DocIORenderer renderer = new DocIORenderer())
                     {
-                        //Converts Word document to images.
+                        //Convert an entire Word document to images.
                         Stream[] imageStreams = wordDocument.RenderAsImages();
-                        int i = 0;
-                        foreach (Stream stream in imageStreams)
+                        for (int i=0; i< imageStreams.Length;i++)
                         {
-                            //Resets the stream position.
-                            stream.Position = 0;
-                            //Creates the output image file stream.
+                            //Create the output image file stream.
                             using (FileStream fileStreamOutput = File.Create(Path.GetFullPath(@"../../../WordToImage_" + i + ".jpeg")))
                             {
-                                //Copies the converted image stream into created output stream.
-                                stream.CopyTo(fileStreamOutput);
+                                //Copy the converted image stream into created output stream.
+                                imageStreams[i].CopyTo(fileStreamOutput);
                             }
-                            i++;
                         }
                     }
                 }

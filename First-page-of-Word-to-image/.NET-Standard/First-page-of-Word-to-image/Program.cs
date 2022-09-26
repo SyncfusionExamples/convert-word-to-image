@@ -9,22 +9,21 @@ namespace First_page_of_Word_to_image
     {
         static void Main(string[] args)
         {
+			//Open the file as stream
             using (FileStream fileStream = new FileStream(Path.GetFullPath(@"../../../Template.docx"), FileMode.Open))
             {
-                //Loads an existing Word document.
+                //Load an existing Word document.
                 using (WordDocument wordDocument = new WordDocument(fileStream, FormatType.Automatic))
                 {
-                    //Creates an instance of DocIORenderer.
+                    //Create an instance of DocIORenderer.
                     using (DocIORenderer renderer = new DocIORenderer())
                     {
-                        //Convert the first page of the Word document into an image.
-                        Stream imageStream = wordDocument.RenderAsImages(0, ExportImageFormat.Jpeg);
-                        //Resets the stream position.
-                        imageStream.Position = 0;
-                        //Creates the output image file stream.
+                        //Convert the first page of Word document into an image.
+                        Stream imageStream = wordDocument.RenderAsImages(0, ExportImageFormat.Jpeg);                        
+                        //Create the output image file stream.
                         using (FileStream fileStreamOutput = File.Create(Path.GetFullPath(@"../../../WordToImage.jpeg")))
                         {
-                            //Copies the converted image stream into created output stream.
+                            //Copy the converted image stream into created output stream.
                             imageStream.CopyTo(fileStreamOutput);
                         }
                     }

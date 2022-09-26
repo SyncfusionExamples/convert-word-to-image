@@ -1,12 +1,12 @@
 # Convert Word to Image in C#
 
-This repository contains examples that illustrates how to convert Word documents to images programmatically in C#. The Syncfusion [.NET&nbsp;Word library](https://www.syncfusion.com/document-processing/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=word-to-image-examples) (DocIO) converts a Word document to images with just five lines of code and also it does **not require Microsoft Word** application to be installed in the machine. It preserves the original appearance of the Word document in the converted image.
+This repository contains examples that illustrates how to convert Word documents to images programmatically in C#. The Syncfusion [.NET&nbsp;Word library](https://www.syncfusion.com/document-processing/word-framework/net/word-library?utm_source=github&utm_medium=listing&utm_campaign=word-to-image-examples) (DocIO) converts a Word document to images with just five lines of code and also it does not require Microsoft Word application to be installed in the machine. It preserves the original appearance of the Word document in the converted image.
 
 # Key Features
 
 -	[Preview the Word document](Convert-Word-to-image/) - Convert an entire document to images 
 -	[Thumbnail of Word document](First-page-of-Word-to-image/) - Convert first page of Word document to image 
--	[Print particular pages in Word document](Specific-range-of-pages-Word-to-image/) - Convert specific range of pages to images 
+-	[Print particular pages in Word document](Specific-range-of-pages-to-image/) - Convert specific range of pages to images 
 
 # Resources
 

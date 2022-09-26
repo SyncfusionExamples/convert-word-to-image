@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Specific_range_of_pages_Word_to_image</RootNamespace>
+    <RootNamespace>Specific_range_of_pages_to_image</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

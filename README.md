@@ -8,7 +8,7 @@ This repository contains examples that illustrates how to convert Word documents
 -	[Thumbnail of Word document](https://help.syncfusion.com/document-processing/word/conversions/word-to-image/net/word-to-image#convert-specific-page-of-word-to-image) - Convert first page of Word document to image 
 -	[Print particular pages in Word document](https://help.syncfusion.com/document-processing/word/conversions/word-to-image/net/word-to-image#convert-a-specific-range-of-pages-in-word-to-an-image) - Convert specific range of pages to images 
 
-## Syncfusion&reg; .NET Word Library
+## .NET Word Library
 The Syncfusion&reg; DocIO is a [.NET Word library](https://www.syncfusion.com/document-sdk/net-word-library) allows you to add advanced Word document processing functionalities to any .NET application and does not require Microsoft Word application to be installed in the machine. It is a non-UI component that provides a full-fledged document instance model similar to the Microsoft Office COM libraries to iterate with the document elements explicitly and perform necessary manipulation. 
 
 *   Support to [create Word document](https://www.syncfusion.com/document-sdk/net-word-library/create-word-documents) from scratch.
@@ -53,13 +53,13 @@ Supported File Formats
 
 ## Resources
 
-*   **Product page:** [.NET Word Library](https://www.syncfusion.com/document-sdk/net-word-library)
-*   **Documentation:** [.NET Word library](https://help.syncfusion.com/document-processing/word/word-library/net/overview)
-*   **Online demo:** [.NET Word library - Online demos](https://document.syncfusion.com/demos/word/salesinvoice#/bootstrap5)
-*   **Blog:** [.NET Word library - Blog](https://www.syncfusion.com/blogs/category/docio?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
-*   **Knowledge Base:** [.NET Word library - Knowledge Base](https://www.syncfusion.com/kb/aspnetcore/docio?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
-*   **Ebooks:** [.NET Word library - Ebooks](https://www.syncfusion.com/succinctly-free-ebooks?utm_source=nuget&utm_medium=listing&utm_campaign=aspnetcore-docio-nuget)
-*   **FAQ:** [.NET Word library - FAQ](https://www.syncfusion.com/faq/?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
+*   **Product page:** [Syncfusion&reg; Word Framework](https://www.syncfusion.com/document-sdk/net-word-library)
+*   **Documentation:** [Syncfusion&reg; Word library](https://help.syncfusion.com/document-processing/word/word-library/net/overview)
+*   **Online demo:** [Syncfusion&reg; Word library - Online demos](https://document.syncfusion.com/demos/word/salesinvoice#/bootstrap5)
+*   **Blog:** [Syncfusion&reg; Word library - Blog](https://www.syncfusion.com/blogs/category/docio?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
+*   **Knowledge Base:** [Syncfusion&reg; Word library - Knowledge Base](https://www.syncfusion.com/kb/aspnetcore/docio?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
+*   **Ebooks:** [Syncfusion&reg; Word library - Ebooks](https://www.syncfusion.com/succinctly-free-ebooks?utm_source=nuget&utm_medium=listing&utm_campaign=aspnetcore-docio-nuget)
+*   **FAQ:** [Syncfusion&reg; Word library - FAQ](https://www.syncfusion.com/faq/?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
 
 ## Support and feedback
 For any other queries, reach our [Syncfusion&reg; support team](https://support.syncfusion.com/?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples).
